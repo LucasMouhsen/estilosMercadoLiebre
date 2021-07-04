@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.home{
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+.home header{
+    background-color: #EAC926;
+}
+
+.home header nav .buscador,
+.home header nav .logo{
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 20px;
+    display: block;
+}
+
+.home header .cuotas{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.home header nav ul{
+    padding-bottom: 20px;
+}
+
+.home header nav ul li a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.home header .centrado{
+    text-align: center;
+    padding-bottom: 20px ;
+}
+
+.home header .burger-menu{
+    display: inline-block;
+    width: 30px;
+    background-color: #1259c3;
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+
+.home main .banner{
+    width: 100%;
+}
+
+.home main section{
+    text-align: center;
+}
+
+.home main section h3{
+    font-size: 24px;
+    color: #666;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home main article{
+    background-color: white;
+    margin: 15px;
+}
+
+.home main article img{
+    width: 98%;
+}
+
+.home main article i{
+    color: #39b54a;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 80%;
+}
+
+.home main article .precio{
+    font-size: 18px;
+    text-align: left;
+}
+
+.home main article .off{
+    font-size: 16px;
+    text-align: left;
+    color: #39b54a;
+}
+
+.home main article .articulo{
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px ;
+}
+
+.home footer{
+    text-align: center;
+    background-color: white;
+    margin:5px;
+}
+
+.home footer i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.home footer .titulo{
+    font-weight: 600;
+}
+
+.home footer p{
+    font-size: 12px;
+    padding: 5px 50px;
+    color: #666;
+}
+
+.home footer .derechos{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
